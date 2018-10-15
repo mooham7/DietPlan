@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_detail_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/detail_bg_cat_items"
+            android:paddingBottom="2dp"
+            android:paddingEnd="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingStart="1dp"
+            android:paddingTop="1dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageView_detail_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/images"
+                app:riv_corner_radius="5dp" />
+
+            <View
+                android:id="@+id/view_detail_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_thum_textview_background" />
+
+            <TextView
+                android:id="@+id/textView_title_detail_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_detail_fragment"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/app_name"
+                android:textColor="@color/textTitle_detail_fragment"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout_detail_fragment"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/about_us_linearlayout_background">
+
+            <TextView
+                android:id="@+id/textView_detail_detail_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:padding="10dp"
+                android:text="@string/lorem"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28B9BE</color>
+    <color name="colorPrimaryDark">#219CA1</color>
+    <color name="colorAccent">#28B9BE</color>
+    <color name="navigation_drawar">#FFFFFF</color>
+    <color name="nav_header_drawar_text">#FFFFFFFF</color>
+    <color name="drawar_text">#FF929292</color>
+    <color name="drawar_text_sub">#BEBEBE</color>
+    <color name="view_nav_header">#66BBBBBB</color>
+    <color name="drawar_item">#626262</color>
+    <color name="drawar_item_selected">#FCB318</color>
+    <color name="toolbar">#28B9BE</color>
+    <color name="toolbar_text">#FFFFFF</color>
+    <color name="tabColor">#219ca1</color>
+    <color name="SmoothProgressBar">#28B9BE</color>
+    <color name="about_us_Text">#636363</color>
+    <color name="about_us_SubText">#8b8b8b</color>
+    <color name="app_background">#EDEDF7</color>
+    <color name="boder">#CABBBBBB</color>
+    <color name="category">#FFFFFF</color>
+    <color name="textTitle_detail_fragment">#FFFFFF</color>
+    <color name="tabLayoutDivider">#8eced0</color>
+</resources>
